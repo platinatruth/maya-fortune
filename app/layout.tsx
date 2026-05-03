@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -94,6 +95,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-bg text-ink">
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
