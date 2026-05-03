@@ -56,6 +56,8 @@ export default async function ResultPage({ searchParams }: PageProps) {
 
         <CyclePositionCard cycle={data.cycle} />
 
+        <PremiumNotice />
+
         <BiorhythmGraph
           outlooks={data.biorhythm}
           currentYear={data.today.getFullYear()}
@@ -83,5 +85,23 @@ export default async function ResultPage({ searchParams }: PageProps) {
         />
       </div>
     </main>
+  );
+}
+
+function PremiumNotice() {
+  return (
+    <div className="rounded-3xl bg-gradient-to-br from-turquoise-soft/60 via-turquoise-soft/40 to-bg-soft/60 border border-turquoise/30 px-6 py-5">
+      <div className="flex items-center gap-2.5">
+        <span className="text-[10px] tracking-widest uppercase font-medium px-2 py-0.5 rounded-full bg-turquoise text-white">
+          Premium
+        </span>
+        <p className="text-sm font-medium text-ink">
+          ここから下はプレミアム機能です
+        </p>
+      </div>
+      <p className="mt-2 text-xs text-ink-soft leading-relaxed">
+        現在プレリリース期間中につき、すべて無料でご覧いただけます。
+      </p>
+    </div>
   );
 }

@@ -204,7 +204,7 @@ export default function Home() {
             <span className="inline-block px-1.5 py-0.5 rounded-full bg-turquoise text-white text-[10px] font-medium mr-1.5">
               無料
             </span>
-            付きの項目は今すぐ見られます。それ以外はプレミアム機能です（リリース時に会員登録で解放予定）。
+            付きの項目は今すぐ見られます。それ以外はプレミアム機能です（現在はプレリリース中につき無料解放中）。
           </p>
         </div>
       </section>
