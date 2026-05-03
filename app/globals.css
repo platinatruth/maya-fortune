@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #faf7f2;
+  --bg-soft: #f3ede1;
+  --surface: #ffffff;
+  --ink: #2a2a28;
+  --ink-soft: #5a5752;
+  --line: #e6dfd1;
+
+  --turquoise: #2fb3a4;
+  --turquoise-deep: #1f8e82;
+  --turquoise-soft: #d6efeb;
+
+  --maya-red: #c0524a;
+  --maya-white: #e9e4d6;
+  --maya-blue: #3d7ea6;
+  --maya-yellow: #d8b14a;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+
+  --color-turquoise: var(--turquoise);
+  --color-turquoise-deep: var(--turquoise-deep);
+  --color-turquoise-soft: var(--turquoise-soft);
+
+  --color-maya-red: var(--maya-red);
+  --color-maya-white: var(--maya-white);
+  --color-maya-blue: var(--maya-blue);
+  --color-maya-yellow: var(--maya-yellow);
+
+  --font-sans: var(--font-noto-sans-jp);
+  --font-serif: var(--font-noto-serif-jp);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-noto-sans-jp), -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", sans-serif;
+  font-feature-settings: "palt";
+}
