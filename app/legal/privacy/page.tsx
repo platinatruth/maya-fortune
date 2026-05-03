@@ -52,7 +52,7 @@ export default function PrivacyPage() {
         <Section title="3. 利用目的">
           <p>取得した情報は、以下の目的でのみ利用します。</p>
           <ul className="list-disc pl-5 space-y-1.5 mt-2">
-            <li>マヤ歴ツォルキン鑑定結果の算出と表示</li>
+            <li>マヤ暦ツォルキン鑑定結果の算出と表示</li>
             <li>本サービスの改善および不具合対応</li>
             <li>不正アクセス・不正利用の防止</li>
           </ul>

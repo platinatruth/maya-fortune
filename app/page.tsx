@@ -33,7 +33,7 @@ export default function Home() {
           人生の流れを読む。
         </h1>
         <p className="mt-5 text-sm sm:text-base leading-relaxed text-ink-soft max-w-xl">
-          260日周期のマヤ歴ツォルキンに、生年月日を重ねます。
+          260日周期のマヤ暦ツォルキンに、生年月日を重ねます。
           20の太陽の紋章 × 13の銀河の音から、あなただけのKIN番号と
           人生のバイオリズムを導き出します。
         </p>
@@ -49,7 +49,7 @@ export default function Home() {
       {/* What is Maya calendar */}
       <section className="px-5 sm:px-8 py-12 bg-bg-soft/50 border-y border-line">
         <div className="max-w-3xl mx-auto w-full">
-          <SectionHeading kicker="ABOUT" title="マヤ歴とは" />
+          <SectionHeading kicker="ABOUT" title="マヤ暦とは" />
           <div className="mt-6 space-y-4 text-sm sm:text-base leading-relaxed text-ink">
             <p>
               古代マヤ文明が用いた、<strong>260日周期の神聖暦「ツォルキン」</strong>。

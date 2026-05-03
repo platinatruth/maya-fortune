@@ -19,9 +19,9 @@ const notoSerifJP = Noto_Serif_JP({
 const baseUrl =
   process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000";
 const siteName = "maya-fortune";
-const defaultTitle = "maya-fortune | KINとマヤ歴で読む運勢鑑定";
+const defaultTitle = "maya-fortune | KINとマヤ暦で読む運勢鑑定";
 const description =
-  "生年月日からマヤ歴ツォルキンのKIN番号・太陽の紋章・銀河の音を導き、今月・今年〜来年の運勢、人生のバイオリズム、運命の人、節目年を鑑定します。";
+  "生年月日からマヤ暦ツォルキンのKIN番号・太陽の紋章・銀河の音を導き、今月・今年〜来年の運勢、人生のバイオリズム、運命の人、節目年を鑑定します。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   description,
   applicationName: siteName,
   keywords: [
-    "マヤ歴",
+    "マヤ暦",
     "ツォルキン",
     "KIN",
     "占い",
